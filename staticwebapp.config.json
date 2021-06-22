@@ -5,6 +5,10 @@
 	      "route": "/P2",
 	      "allowedRoles": [ "anonymous" ]
 	    },
+	  {
+	      "route": "/Admin/*",
+	      "allowedRoles": [ "administrators" ]
+	    },
 	{
 	      "route": "/",
 	      "allowedRoles": [ "authenticated" ]
