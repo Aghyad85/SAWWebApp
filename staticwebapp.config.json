@@ -1,6 +1,11 @@
 {  
 "routes": [
-	    {
+	    
+	  {
+	      "route": "/P1",
+	      "allowedRoles": [ "anonymous" ]
+	    },
+	{
 	      "route": "/",
 	      "allowedRoles": [ "authenticated" ]
 	    },
