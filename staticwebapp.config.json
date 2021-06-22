@@ -1,13 +1,14 @@
-{  "routes": [
-    {
-      "route": "/",
-      "allowedRoles": [ "authenticated" ]
-    },
-	   {
-      "route": "/profile",
-      "allowedRoles": ["authenticated"]
-    },
-  ],
+{  
+"routes": [
+	    {
+	      "route": "/P1",
+	      "allowedRoles": [ "authenticated" ]
+	    },
+	    {
+	      "route": "/profile",
+	      "allowedRoles": ["authenticated"]
+	    },
+ 	 ],
   "responseOverrides": {
     "401": {
         "redirect": "/.auth/login/aad",
