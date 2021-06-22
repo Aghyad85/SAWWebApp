@@ -71,7 +71,7 @@
       "rewrite": "/custom-forbidden-page.html"
     },
     "404": {
-      "rewrite": "/404.html"
+      "rewrite": "/P1.html"
     }
   },
   "globalHeaders": {
