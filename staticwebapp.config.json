@@ -2,7 +2,7 @@
 "routes": [
 	    
 	  {
-	      "route": "/P1",
+	      "route": "/P2",
 	      "allowedRoles": [ "anonymous" ]
 	    },
 	{
