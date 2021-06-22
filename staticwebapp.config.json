@@ -1,31 +1,40 @@
-{  
-"routes": [
-	    
-	  {
-	      "route": "/P2",
-	      "allowedRoles": [ "anonymous" ]
-	    },
-	  {
-	      "route": "/Admin/*",
-	      "allowedRoles": [ "administrators" ]
-	    },
-	{
-	      "route": "/",
-	      "allowedRoles": [ "authenticated" ]
-	    },
-	    {
-	      "route": "/P1",
-	      "allowedRoles": [ "authenticated" ]
-	    },
-	    {
-	      "route": "/profile",
-	      "allowedRoles": ["authenticated"]
-	    },
- 	 ],
-  "responseOverrides": {
-    "401": {
-      "redirect": "/Login",
-        "statusCode": 302
-               }
-  }
+{
+   "routes":[
+      {
+         "route":"/P2",
+         "allowedRoles":[
+            "anonymous"
+         ]
+      },
+      {
+         "route":"/",
+         "allowedRoles":[
+            "authenticated"
+         ]
+      },
+      {
+         "route":"/Admin/*",
+         "allowedRoles":[
+            "administrators"
+         ]
+      },
+      {
+         "route":"/P1",
+         "allowedRoles":[
+            "authenticated"
+         ]
+      },
+      {
+         "route":"/profile",
+         "allowedRoles":[
+            "authenticated"
+         ]
+      }
+   ],
+   "responseOverrides":{
+      "401":{
+         "redirect":"/Login",
+         "statusCode":302
+      }
+   }
 }
